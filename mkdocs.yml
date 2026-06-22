@@ -1,0 +1,18 @@
+site_name: 3D人体姿态文档
+site_description: 2D 到 3D 人体姿态提升任务说明文档
+
+docs_dir: .
+
+nav:
+	- 首页: index.md
+
+theme:
+	name: readthedocs
+
+markdown_extensions:
+	- admonition
+	- codehilite
+	- fenced_code
+	- tables
+	- toc:
+			permalink: true
