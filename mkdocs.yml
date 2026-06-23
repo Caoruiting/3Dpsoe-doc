@@ -1,18 +1,12 @@
-site_name: 3D人体姿态文档
-site_description: 2D 到 3D 人体姿态提升任务说明文档
+# 站点名称（MkDocs 强制必填项）
+site_name: 3D姿态提升模型文档
 
-docs_dir: .
+# 文档源文件目录，显式指定避免路径识别错误
+docs_dir: docs
 
-nav:
-	- 首页: index.md
+# 构建输出目录
+site_dir: site
 
+# 适配 Read the Docs 平台的默认主题，保证兼容性
 theme:
-	name: readthedocs
-
-markdown_extensions:
-	- admonition
-	- codehilite
-	- fenced_code
-	- tables
-	- toc:
-			permalink: true
+  name: readthedocs
