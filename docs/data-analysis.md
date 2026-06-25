@@ -48,9 +48,7 @@
 本组为散点图，用于探究算法优化目标（Fitness）与最终3D姿态质量指标之间的相关性。
 本算法优化的直接目标是 `avg_keypoint_error`（即Fitness），但最终核心关注指标是3D姿态误差：**MPJPE** 和 **PA-MPJPE**。
 
-![Fitness Vs MPJPE 散点图](images/scatter-fitness-mpjpe.png)
-
-![Fitness vs PA-MPJPE 散点图](images/scatter-fitness-pa-mpjpe.png)
+![Fitness vs MPJPE/PA-MPJPE 散点图](images/scatter-fitness-mpjpe-PA-MPJPE.png)
 
 #### 图表说明
 - 横坐标 `x`：单个个体的 `avg_keypoint_error`（2D重投影误差，即Fitness）
