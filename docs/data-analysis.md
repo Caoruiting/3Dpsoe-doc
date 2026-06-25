@@ -4,11 +4,7 @@
 ### 1.1 每轮种群指标趋势图
 本组图表展示算法迭代过程中，种群核心指标随轮次的变化趋势，共包含3张子图，所有子图的横坐标均为**迭代轮数**，覆盖第1轮到第60轮，每轮统计种群内50个个体的对应指标。
 
-![Avg Keypoint Error 每轮种群趋势](images/trend-avg-keypoint-error.png)
-
-![P_tilde MPJPE(mm) 每轮种群趋势](images/trend-mpjpe.png)
-
-![P_tilde PA-MPJPE(mm) 每轮种群趋势](images/trend-pa-mpjpe.png)
+![每轮种群指标趋势图](images/trend-avg--mpjpe-PA-MPJPE.png)
 
 #### 图例说明
 - **灰色阴影（Q1-Q3）**：代表每轮50个个体中，中间50%个体的指标范围。其中Q1为第25百分位数，Q3为第75百分位数，灰色区域即Q1到Q3的区间，反映该轮种群的主要分布范围。
