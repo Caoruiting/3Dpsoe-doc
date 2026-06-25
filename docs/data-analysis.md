@@ -70,3 +70,5 @@
 ![Fitness vs MPJPE/PA-MPJPE 散点图](images/3d_skeleton_best_avg_keypoint_error_generations_11_to_20.png)
 ![Fitness vs MPJPE/PA-MPJPE 散点图](images/3d_skeleton_best_avg_keypoint_error_generations_51_to_60.png)
 
+可视化每轮种群（50个个体）中avg_keypoint_error最小个体，看它们的姿态有无变化。
+
