@@ -66,7 +66,7 @@
 
 该现象本质是**单目2D约束下的深度歧义问题**：低2D重投影误差并不必然对应最低的3D姿态误差，仅靠2D投影约束无法完全消除深度维度的不确定性。验证了单视角2D约束存在天然的深度歧义局限。
 ## 4. 3D姿态（P_tilde）的逐渐演化过程
-![Fitness vs MPJPE/PA-MPJPE 散点图](images/scatter-fitness-mpjpe-PA-MPJPE.png)
-![Fitness vs MPJPE/PA-MPJPE 散点图](images/scatter-fitness-mpjpe-PA-MPJPE.png)
-![Fitness vs MPJPE/PA-MPJPE 散点图](images/scatter-fitness-mpjpe-PA-MPJPE.png)
+![Fitness vs MPJPE/PA-MPJPE 散点图](images/3d_skeleton_best_avg_keypoint_error_generations_1_to_10.png)
+![Fitness vs MPJPE/PA-MPJPE 散点图](images/3d_skeleton_best_avg_keypoint_error_generations_11_to_20.png)
+![Fitness vs MPJPE/PA-MPJPE 散点图](images/3d_skeleton_best_avg_keypoint_error_generations_51_to_60.png)
 
