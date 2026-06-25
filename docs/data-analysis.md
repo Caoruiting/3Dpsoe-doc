@@ -66,10 +66,12 @@
 
 该现象本质是**单目2D约束下的深度歧义问题**：低2D重投影误差并不必然对应最低的3D姿态误差，仅靠2D投影约束无法完全消除深度维度的不确定性。验证了单视角2D约束存在天然的深度歧义局限。
 ## 4. 3D姿态（P_tilde）的逐渐演化过程
+![Fitness vs MPJPE/PA-MPJPE 散点图](images/real_3D_532886.png)
+上图是真实的3D姿态。下图是进化中预测的3D姿态。
 ![Fitness vs MPJPE/PA-MPJPE 散点图](images/3d_skeleton_best_avg_keypoint_error_generations_1_to_10.png)
 ![Fitness vs MPJPE/PA-MPJPE 散点图](images/3d_skeleton_best_avg_keypoint_error_generations_11_to_20.png)
 ![Fitness vs MPJPE/PA-MPJPE 散点图](images/3d_skeleton_best_avg_keypoint_error_generations_51_to_60.png)
 
 可视化每轮种群（50个个体）中avg_keypoint_error最小个体，看它们的姿态有无变化。   
 
-从第1轮到第60轮中。可视化重投影误差最小的3D姿态可知。整个进化过程中姿态的样式是没怎么改变的。可能是加噪去噪步数太小，不足以改变姿态的样式。但是3D姿态在空间的位置是在变化的。所以整个进化中 扩散模型（初始种群）决定使avg_keypoint_error最小的姿态的样式。所以扩散模型生成的初始种群很重要。
+从第1轮到第60轮中。可视化重投影误差最小的3D姿态。由图可知整个进化过程中姿态的样式是没怎么改变的。可能是加噪去噪步数太小，不足以改变姿态的样式。但是3D姿态在空间的位置是在变化的。所以整个进化中 扩散模型（初始种群）决定使avg_keypoint_error最小的3D姿态的样式。所以扩散模型生成的初始种群很重要。
