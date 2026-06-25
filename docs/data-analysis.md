@@ -1,7 +1,9 @@
 # 数据分析
-![第1轮数据表格图](images/Evolve 1 generation.png)
-![第2轮数据表格图](images/Evolve 2 generation.png)
-![第60轮数据表格图](images/Evolve 60 generation.png)
+![第1轮数据表格图](images/Evolve_1_generation.png)
+![第2轮数据表格图](images/Evolve_2_generation.png)
+![第60轮数据表格图](images/Evolve_60_generation.png)
+
+这三张图分别是第1轮、第2轮、第60轮收集的数据。
 ## 1. 种群迭代趋势分析
 ### 1.1 每轮种群指标趋势图
 本组图表展示算法迭代过程中，种群核心指标随轮次的变化趋势，共包含3张子图，所有子图的横坐标均为**迭代轮数**，覆盖第1轮到第60轮，每轮统计种群内50个个体的对应指标。
