@@ -3,7 +3,7 @@
 ![第2轮数据表格图](images/Evolve_2_generation.png)
 ![第60轮数据表格图](images/Evolve_60_generation.png)
 
-这三张图分别是第1轮、第2轮、第60轮收集的数据。
+这三张图分别是第1轮、第2轮、第60轮收集的数据。P_tilde：PSO 之后再做“射线投影”得到的 3D 姿态，也就是更靠近相机成像几何约束的最终姿态。它会被拿来算 MPJPE 和 PA-MPJPE。，avg_keypoint_error:这轮姿态的适应度值，也就是best_fitness，也就是2D 关键点的平均L2重投影误差。P_tilde_MPJPE:和真实3D姿态比较得到的评估指标值 ，P_tilde_PA-MPJPE:在P_tilde_MPJPE基础上， 先做Procrustes对齐，再和真实3D姿态比较得到的评估指标值。主要是看P_tilde，avg_keypoint_error，P_tilde_MPJPE，P_tilde_PA-MPJPE的变化情况。
 ## 1. 种群迭代趋势分析
 ### 1.1 每轮种群指标趋势图
 本组图表展示算法迭代过程中，种群核心指标随轮次的变化趋势，共包含3张子图，所有子图的横坐标均为**迭代轮数**，覆盖第1轮到第60轮，每轮统计种群内50个个体的对应指标。
