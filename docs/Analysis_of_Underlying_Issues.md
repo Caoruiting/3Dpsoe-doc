@@ -1,6 +1,6 @@
 # 更深层的原因：优化目标是2D重投影误差，上下左右移动可以使重投影误差变小，不需要3D姿态形状变化。
 
-![示例图片](media/image1.png)
+![示例图片](images/3D_skeleton_best_avg_keypoint_error_absolute_1_to_10.png)
 
 ## 一、如果初始姿态错了，就一直进化这个姿态。会不会跳不出坑？
 
