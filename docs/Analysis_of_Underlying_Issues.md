@@ -2,6 +2,7 @@
 
 ![示例图片](images/3D_skeleton_best_avg_keypoint_error_absolute_1_to_10.png)
 ![示例图片](images/500nups.png)
+![示例图片](images/all50.png)
 
 ## 一、如果初始姿态错了，就一直进化这个姿态。会不会跳不出坑？
 
